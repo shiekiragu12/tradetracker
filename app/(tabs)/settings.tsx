@@ -244,6 +244,7 @@ const styles = StyleSheet.create({
   },
   section: {
     marginBottom: 24,
+    borderRadius: 8,
   },
   sectionTitle: {
     fontSize: 16,
@@ -254,6 +255,9 @@ const styles = StyleSheet.create({
   },
   settingsCard: {
     marginHorizontal: 16,
+    backgroundColor: Colors.card.light,
+    elevation: 1,
+
   },
   settingItem: {
     flexDirection: 'row',

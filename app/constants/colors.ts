@@ -1,6 +1,6 @@
 export default {
   primary: {
-    light: '#b983ff',  // Vibrant lilac
+    light: '#d35400',  // Vibrant lilac
     dark: '#9a5bff',   // Rich purple
   },
   secondary: {

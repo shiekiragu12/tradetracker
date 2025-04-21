@@ -25,6 +25,7 @@ import { usePredictionStore } from '@/app/store/predictionStore';
 import { mockTrades } from '@/app/mocks/trades';
 import { mockTransactions } from '../mocks/transaction';
 
+
 export default function DashboardScreen() {
   const router = useRouter();
   const [refreshing, setRefreshing] = useState(false);

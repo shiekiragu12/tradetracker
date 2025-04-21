@@ -8,6 +8,7 @@ import {
   Settings 
 } from "lucide-react-native";
 import Colors from "../constants/colors";
+import { FontDisplay } from "expo-font";
 
 export default function TabLayout() {
   return (
@@ -23,11 +24,18 @@ export default function TabLayout() {
           paddingTop: 8,
         },
         headerStyle: {
-          backgroundColor: Colors.card.light,
+          // backgroundColor: Colors.card.light,
+          display: 'none',
+          // dont display the header
+          height: 40,
+          padding: 12,
+
         },
         headerTitleStyle: {
           fontWeight: '600',
           color: Colors.text.light,
+          // dont display the heaeder title
+          display: 'none',
         },
         headerShadowVisible: false,
       }}
